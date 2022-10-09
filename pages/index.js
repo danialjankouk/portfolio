@@ -51,11 +51,11 @@ export default function Home() {
               Front End Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              My field of Interest's are building new Web Technologies and
-              Products . Join me down below and let's get cracking!
+              My field of Interest`s are building new Web Technologies and
+              Products . Join me down below and let`s get cracking!
             </p>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="image" />
             </div>
           </div>
         </section>
@@ -63,18 +63,18 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a developer I'll always
+              Since the beginning of my journey as a developer I`ll always
               looking for{" "}
               <span className="text-teal-500"> Self Development </span> and
-              increase my <span className="text-teal-500">Skills</span>, I'm so
+              increase my <span className="text-teal-500">Skills</span>, I`m so
               excited to learn more about programming in this field and
               collaborat with talanted people to create digital products for
               both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              " The web can sometimes be indistinguishable from magic, but I
+              ` The web can sometimes be indistinguishable from magic, but I
               have the knowledge and patience required to make just about
-              anything "
+              anything `
             </p>
           </div>
         </section>
@@ -86,6 +86,7 @@ export default function Home() {
                 className="rounded-sm object-cover"
                 layout="responsive"
                 src={web1}
+                alt="image"
               />
               <div className="justify-between bg-[#343A40] p-5 text-white flex md:flex-row flex-col">
                 <div>
@@ -113,6 +114,7 @@ export default function Home() {
                 className="rounded-sm object-cover"
                 layout="responsive"
                 src={web2}
+                alt="image"
               />
               <div className="justify-between bg-[#343A40] p-5 text-white flex md:flex-row flex-col">
                 <div>
@@ -146,6 +148,7 @@ export default function Home() {
                 className="rounded-sm object-cover"
                 layout="responsive"
                 src={web3}
+                alt="image"
               />
               <div className="justify-between bg-[#343A40] p-5 text-white flex md:flex-row flex-col">
                 <div>
@@ -154,8 +157,8 @@ export default function Home() {
                   </h1>
                   <p className="w-full">
                     A Cryptourrency Exchange that use API from coingecko.com and
-                    you have Searchbar for Searching between Crypto's , 24-hour
-                    Price Changing , Sign's , Rank , Marketcap .
+                    you have Searchbar for Searching between Crypto`s , 24-hour
+                    Price Changing , Sign`s , Rank , Marketcap .
                   </p>
                 </div>
                 <div className="flex flex-row gap-x-5 items-center mt-3 md:mt-0">
@@ -184,7 +187,7 @@ export default function Home() {
               className="border-2 hover:scale-110 transition ease-in-out delay-150 mt-3 hover:bg-[#27B1A3] border-[#27B1A3] p-2 dark:text-white"
               onClick={() => window.open("mailto:dani.jankook@gmail.com")}
             >
-              Let's Talk
+              Let`s Talk
             </button>
           </div>
         </section>

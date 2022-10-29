@@ -29,7 +29,11 @@ export default function Home() {
                 />
               </li>
               <li>
-                <a className="bg-gradient-to-r cursor-pointer from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8">
+                <a
+                  href="https://docs.google.com/viewerng/viewer?url=https://www.udrop.com/7st7/CV.pdf?download_token%3D658000d042c1741b9bdc08da53a03c81ba3c73372f900a11ab93e5cd5756ae66"
+                  download
+                  className="bg-gradient-to-r cursor-pointer from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                >
                   Resume
                 </a>
               </li>

@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-center items-center text-white mt-5 pb-2">
         <h1>
-          © 2022 - Template developed by
+          © 2023 - Template developed by
           <a
             href="https://github.com/danialjankouk"
             className="hover:text-[#08B6CD] pl-1 hover:transition-all"

@@ -30,7 +30,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://docs.google.com/viewerng/viewer?url=https://www.udrop.com/7st7/CV.pdf?download_token%3D658000d042c1741b9bdc08da53a03c81ba3c73372f900a11ab93e5cd5756ae66"
+                  href="https://docs.google.com/document/d/10ndRstUtAjlNxmoPdlFR2lnhfEmlNtcr/edit?usp=share_link&ouid=112494746875958612750&rtpof=true&sd=true"
                   download
                   className="bg-gradient-to-r cursor-pointer from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                 >

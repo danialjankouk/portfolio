@@ -12,12 +12,12 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={!darkMode ? "dark" : ""}>
+    <div className={!darkMode ? "dark mx-auto overflow-hidden" : "mx-auto"}>
       <Head>
         <title>Danial Jankouk</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main className=" bg-slate-300 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className="bg-slate-300 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-burtons md:text-xl pr-2">jankouk</h1>
@@ -58,7 +58,7 @@ export default function Home() {
               My field of Interest`s are building new Web Technologies and
               Products . Join me down below and let`s get cracking!
             </p>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-64 h-64 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" alt="image" />
             </div>
           </div>

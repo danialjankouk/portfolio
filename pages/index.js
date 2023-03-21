@@ -30,7 +30,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://docs.google.com/document/d/10ndRstUtAjlNxmoPdlFR2lnhfEmlNtcr/edit?usp=share_link&ouid=112494746875958612750&rtpof=true&sd=true"
+                  href="https://drive.google.com/file/d/1Oqc55BZdKMaiOkYqxdTzE4A8M1jssEsz/view"
                   download
                   className="bg-gradient-to-r cursor-pointer from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                 >
